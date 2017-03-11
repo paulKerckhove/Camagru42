@@ -1,0 +1,33 @@
+div#profile_pic_box{float:left; /*border:#34495e*/ 2px solid; width:200px; height:500px; margin:50px 50px 50px 50px; overflow-y:hidden;}
+div#profile_pic_box > img{z-index:2000; width:200px;}
+div#profile_pic_box > a {
+	display: none;
+	position:absolute;
+	margin:140px 0px 0px 120px;
+	z-index:4000;
+	background:#34495e;
+	border:#34495e 1px solid;
+	border-radius:3px;
+	padding:5px;
+	font-size:12px;
+	text-decoration:none;
+	color:#ecf0f1;
+  font-family: Pt Sans;
+}
+div#profile_pic_box > form {
+	display:none;
+	position:absolute;
+	z-index:5000;
+	padding:10px;
+	opacity:.8;
+	background:#ecf0f1;
+	width:180px;
+	height:180px;
+  font-family: Pt Sans;
+}
+
+div#profile_pic_box:hover a {
+    display: block;
+    font-family: Pt Sans;
+}
+img.friendpics{border:#000 1px solid; width:40px; height:40px; margin:2px;}

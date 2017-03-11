@@ -1,0 +1,436 @@
+body {
+  background-color: #bdc3c7;
+  margin: 0;
+  padding-top: 120px;
+  width: 100%;
+  min-height: 100%;
+}
+
+header {
+    text-align: center;
+    position: absolute;
+    top: 0;
+    width: 102%;
+    background-color: #34495e;
+    margin: 0;
+    height: 120px;
+}
+
+/* This concern all the links in the pages
+this way we will avoid to get a color (purple) for links */
+
+
+A:link {text-decoration: none; color: #34495e;}
+A:visited {text-decoration: none; color: #34495e;}
+A:hover {text-decoration: none; color: #34495e;}
+A:active {text-decoration: none; color: #34495e;}
+
+/*
+https://flatuicolors.com/
+*/
+
+/*
+http://brandcolors.net/
+*/
+
+.main-header {
+    color: #ecf0f1;
+    font-family: PT Sans;
+    font-size: 17px;
+    text-align: center;
+    margin: 0;
+    margin-left: -90px;
+    height: 80px;
+}
+.main-header .nav {
+  color: #ecf0f1;
+  font-family: PT Sans;
+}
+.header .links a {
+  font-family: PT Sans;
+  color: #ecf0f1;
+}
+
+footer {
+  color: #ecf0f1;
+  text-align: left;
+  background-color: #34495e;
+  position: fixed;; bottom: 0; left: 0;
+  width: 102% !important;
+  font-family: PT Sans;
+}
+.footer .links a {
+    list-style: none;
+    font-family: PT Sans;
+    color: #95a5a6;
+    text-decoration: none;
+}
+.login {
+  color: #ecf0f1;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  width: 102px;
+  font-family: PT Sans;
+}
+/* This part is about the webcam page */
+
+
+.webcam {
+  padding-top: 330px;
+  text-align: center;
+  background-color: #bdc3c7;
+}
+
+/* This part is about the button "snap it" on the webcam page */
+
+button {
+  border-radius: 40px;
+  font-family: Pt Sans;
+  color: white;
+  font-size: 20px;
+  padding: 15px 20px 20px 15px;
+  background-color: #34495e;
+  text-align: center;
+  outline: 0;
+  border: none;
+  margin-top: 2px;
+}
+
+
+/*This part is about the upload button in the webcam page*/
+/*
+input {
+  border-radius: 40px;
+  font-family: Pt Sans;
+  color: white;
+  font-size: 20px;
+  padding: 15px 20px 20px 15px;
+  background-color: #34495e;
+  text-align: center;
+  outline: 0;
+  border: none;
+  display: inline-block;
+  float: none;
+  /*width: 200%;
+}*/
+
+.login_signupform {
+  border-radius: 40px;
+  font-family: Pt Sans;
+  color: white;
+  font-size: 20px;
+  padding: 15px 20px 20px 15px;
+  background-color: #34495e;
+  text-align: center;
+  outline: 0;
+  border: none;
+  display: inline-block;
+  float: none;
+  /*width: 200%;*/
+}
+
+/*This is about the buttons for the my_account page*/
+
+button.btnaccount {
+  border-radius: 40px;
+  font-family: Pt Sans;
+  color: #2ecc71;
+  font-size: 20px;
+  padding: 5px 5px 5px 5px;
+  background-color: #34495e;
+  text-align: center;
+  outline: 0;
+  border: none;
+  margin: 25px;
+}
+
+
+button.btncancelaccount {
+  border-radius: 40px;
+  font-family: Pt Sans;
+  color: #e74c3c;
+  font-size: 20px;
+  padding: 5px 5px 5px 5px;
+  background-color: #34495e;
+  text-align: center;
+  outline: 0;
+  border: none;
+  margin: 25px;
+}
+
+/* This part is about the canvas  */
+
+
+video, canvas {
+  position: absolute;
+  top: 125px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  border: 8px solid;
+  color: #ecf0f1;
+  border-radius: 10px;
+  /*max-width: 1200px;
+  max-height: 1200px;*/
+}
+
+
+/* This is the part about the icons in the header */
+
+
+#settings {
+  width: 42px;
+}
+
+/*this part is about the slideshow in the gallery page*/
+
+
+img {
+  max-width: 600px;
+  max-height: 600px;
+}
+div.img {
+    margin: 10px;
+    border: 8px solid #bdc3c7;
+    width: 200px;
+    display: inline-block;
+    max-width: 600px;
+    max-height: 600px;
+    text-align: center;
+    margin: auto;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    font-family: Pt Sans;
+    color: #ecf0f1;
+}
+
+div.img:hover {
+    -webkit-filter: grayscale(0%);
+     filter: grayscale(0%);
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+article {
+  text-align: center;
+  height: 300px;
+  max-width: inherit;
+  max-height: inherit;
+}
+
+/*This part concern the my_account.php page*/
+
+.myprofile {
+  font-family: Pt Sans;
+  color: #34495e;
+  padding: 10px;
+}
+
+label {
+  font-family: Pt Sans;
+  color: #34495e;
+  /*padding: 25px;
+  width: 100%;*/
+  text-align: center;
+}
+
+fieldset {
+  text-align: center;
+  font-family: Pt Sans;
+}
+h1 {
+  width: 102%;
+  color: #34495e;
+  text-align: center;
+}
+/* This is about the signup.php page */
+h3 {
+  font-family: Pt Sans;
+}
+
+.pageMiddle {
+  font-family: Pt Sans;
+  padding-left: 120px;
+}
+
+h2
+{
+  font-family: Pt Sans;
+}
+div {
+  font-family: Pt Sans;
+  color: #4d4f53;
+}
+#status {
+  color: #4d4f53;
+}
+
+/*
+This is about the photos.php page, the commentary page for the pictures
+*/
+#comment_form {
+  background-color: #bdc3c7;
+  height: 150px;
+  width: 220px;
+  font-color: red;
+}
+
+textarea#tmessageid {
+  background-color: #bdc3c7;
+  height: 90px;
+  width: 210px;
+  font-family: Ps Sans;
+  font-size: 20px;
+}
+
+input#submit {
+  border-radius: 40px;
+  font-family: Pt Sans;
+  color: white;
+  font-size: 20px;
+  padding: 10px 10px 10px 10px;
+  background-color: #34495e;
+  text-align: center;
+  outline: 0;
+  border: none;
+}
+
+img#likebtn {
+  height: 50px;
+  width: 50px;
+}
+
+img#unlikebtn {
+  height: 50px;
+  width: 50px;
+}
+
+img#bin {
+  height: 25px;
+  width: 25px;
+}
+/* This is the part about the images in webcam.php for the drag and drop */
+
+#gallerycontainer {
+  position: absolute;;
+  height: 180px;
+  width: 85%;
+  margin: 20px auto;
+  overflow: auto;
+  padding-left: 35px;
+  padding-right: 35px;
+  margin-left: 50px;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+#gallery {
+  width: 3200px;
+  padding-left: 35px;
+  padding-right: 35px;
+
+}
+	#gallery a {
+	  float: left;
+	  width: 120px;
+	  height: 130px;
+	  margin-right: 2px;
+  	border: 5px solid #34495e;
+    /*padding-left: 35px;
+    padding-right: 35px;*/
+    padding: 8px 8px 2px 10px;
+    border-radius: 40px;
+    margin-left: 0px;
+	}
+
+/*This part concerns the faces for the webcam page for montage */
+
+  #tupac {
+    max-width: 125px;
+    max-height: 125px;
+  }
+  #the_rock {
+    max-width: 125px;
+    max-height: 125px;
+  }
+  #lebron {
+    max-width: 125px;
+    max-height: 125px;
+  }
+  #eazy {
+    max-width: 125px;
+    max-height: 125px;
+  }
+  #xavier {
+    max-width: 125px;
+    max-height: 125px;
+  }
+  #luda {
+    max-width: 125px;
+    max-height: 125px;
+  }
+  #redman {
+    max-width: 125px;
+    max-height: 125px;
+  }
+  #snoop {
+    max-width: 125px;
+    max-height: 125px;
+  }
+
+  #roshi {
+    max-width: 125px;
+    max-height: 125px;
+  }
+
+  #piccolo {
+    max-width: 125px;
+    max-height: 125px;
+  }
+  #vegeta {
+    max-width: 125px;
+    max-height: 125px;
+  }
+  #pc3 {
+    max-width: 125px;
+    max-height: 125px;
+  }
+  #canvas3 {
+    display: none;
+  }
+
+  /*This concerns the savebutton in the webcam page */
+
+  #savebutton {
+    border-radius: 40px;
+    font-family: Pt Sans;
+    color: white;
+    font-size: 20px;
+    padding: 15px 20px 20px 15px;
+    background-color: #34495e;
+    text-align: center;
+    outline: 0;
+    border: none;
+    margin-top: 2px;
+  }
+
+  /*This is for the picture gallery on the webcam page */
+
+  #maingallery {
+    /*padding-top: 10px;*/
+    margin-top: 300px;
+  }
+
+  #trashgall {
+    height: 20px;
+    width: 20px;
+  }
